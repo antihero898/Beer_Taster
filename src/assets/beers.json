@@ -1,0 +1,154 @@
+{
+   "beers": [
+        {
+            "id": "Off Color Beer For Burgers",
+            "name": "Beer For Burgers",
+            "brewery": "Off Color Brewing"
+        },
+        {
+            "id": "Off Color Beer For Dealing With Your Family",
+            "name": "Beer For Dealing With Your Family",
+            "brewery": "Off Color Brewing"
+        },
+        {
+            "id": "Off Color Waddle",
+            "name": "Waddle",
+            "brewery": "Off Color Brewing"
+        },
+        {
+            "id": "Off Color Well Fed Sheep",
+            "name": "Well Fed Sheep",
+            "brewery": "Off Color Brewing"
+        },
+        {
+            "id": "Marz Tropical Freak",
+            "name": "Tropical Freak",
+            "brewery": "Marz Brewing"
+        },
+        {
+            "id": "Saugatuck Brewing Company Pumpkin Chai",
+            "name": "Pumpkin Chai",
+            "brewery": "Saugatuck Brewing Company"
+        },
+        {
+            "id": "Around The Bend Oktoberfiesta",
+            "name": "Oktoberfiesta",
+            "brewery": "Around The Bend Beer Co."
+        },
+        {
+            "id": "Pipeworks Your Brain On Brunch",
+            "name": "You Brain On Brunch",
+            "brewery": "Pipeworks Brewing Company"
+        },
+        {
+            "id": "Allagash North Sky",
+            "name": "North Sky",
+            "brewery": "Alagash Brewing Company"
+        },
+        {
+            "id": "Azardi Kadak",
+            "name": "Kadak",
+            "brewery": "Azardi Brewing Company"
+        },
+        {
+            "id": "Begyle Brewing Coffee Tough Guy",
+            "name": "Coffee Tough Guy",
+            "brewery": "Begyle Brewing"
+        },
+        {
+            "id": "Maplewood Barrel Aged Barley Butcher",
+            "name": "Barrel Aged Barley Bucher",
+            "brewery": "Maplewood Brewery & Distillery"
+        },
+        {
+            "id": "Revolution Caramel Crisp",
+            "name": "Caramel Crisp",
+            "brewery": "Revolution Brewing"
+        },
+        {
+            "id": "Revolution PB Eugene",
+            "name": "PB Eugene", 
+            "brewery": "Revolution Brewing"
+        },
+        {
+            "id": "Revolution Fistmas",
+            "name": "Fistmas",
+            "brewery": "Revolution Brewing"
+        },
+        {
+            "id": "Revolution Maple Jacket",
+            "name": "Maple Jacket",
+            "brewery": "Revolution Brewing"
+        },
+        {
+            "id": "Southern Tier Pumpking",
+            "name": "Pumpking",
+            "brewery": "Southern Tier Brewing Company"
+        },
+        {
+            "id": "Breckenridge Christmas Ale",
+            "name": "Christmas Ale",
+            "brewery": "Breckenridge Brewing"
+        },
+        {
+            "id": "Two Brothers North Wind",
+            "name": "North Wind",
+            "brewery": "Two Brothers Brewing"
+        },
+        {
+            "id": "Untitled Art Blackberry Cobbler A La Mode",
+            "name": "Blackberry Cobbler A La Mode",
+            "brewery": "Untitled Art"
+        },
+        {
+            "id": "Phase Three Affy Tapple",
+            "name": "Affy Tapple",
+            "brewery": "Phase Three Brewing"
+        },
+        {
+            "id": "Half Acre Spring Bock",
+            "name": "Spring Bock",
+            "brewery": "Half Acre Brewery"
+        },
+        {
+            "id": "Goldfinger Vienna",
+            "name": "Vienne",
+            "brewery": "Goldfinger Brewing Company"
+        },
+        {
+            "id": "Bell's Expedition Stout",
+            "name": "Expedition Stout",
+            "brewery": "Bell's Brewery"
+        },
+        {
+            "id": "3 Floyds Behemoth",
+            "name": "Behemoth",
+            "brewery": "3 Floyds Brewing"
+        },
+        {
+            "id": "Goose Island Bourbon Barrel Aged Stout 2021",
+            "name": "Bourbon Barrel Aged Stout",
+            "brewery": "Goose Island Brewery"
+        },
+        {
+            "id": "Short Fuse Bourbon Barrel Aged Barleywine No.1",
+            "name": "Bourbon Barrel Aged Barleywine No.1",
+            "brewery": "Short Fuse Brewing Company"
+        },
+        {
+            "id": "Goldfinger Chela Chido Negra",
+            "name": "Chela Chido Negra",
+            "brewery": "Goldfinger Brewing Company"
+        },
+        {
+            "id": "Pollyanna Dreamsicle Flurries",
+            "name": "Dreamsicle Flurries",
+            "brewery": "Pollyanna Brewing Company"
+        },
+        {
+            "id": "Southern Tier Frosted Sugar Cookie",
+            "name": "Frosted Sugar Cookie",
+            "brewery": "Southern Tier Brewing Company"
+        }
+   ]
+}

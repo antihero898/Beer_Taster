@@ -1,32 +1,132 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useEffect, useReducer, useState } from 'react'
+import beerJSONData from './assets/beers.json';
 
-function App() {
-  const [count, setCount] = useState(0)
+import './styles.css';
+
+const toBeerStringCompartorFn = (propKey) => (beerA, beerB) => {
+  const stringA = beerA[propKey];
+  const stringB = beerB[propKey];
+  if (stringA < stringB) {
+    return -1;
+  }
+  if (stringA > stringB) {
+      return 1;
+  }
+  return 0;
+};
+
+const FILTER_COMPARE_MAP = {
+  brewery: toBeerStringCompartorFn('brewery'),
+  name: toBeerStringCompartorFn('name'),
+  alcohol: (beerA, beerB) => {},
+  style: (beerA, beerB) => {}
+}
+
+const FilterButton = (props) => {
+  const {label, id, selectedFilter, onClick} = props;
+
+  const isSelectedClassName = id === selectedFilter ? 'is-selected' : '';
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <button 
+      onClick={() => onClick(id)} 
+      className={`filter-button ${isSelectedClassName}`}
+    >
+      {label}
+    </button>
+  );
+};
+
+const isEmptyObject = (obj) => !Object.keys(obj).length
+
+const BeerPanel = (props) => {
+  const { beer } = props;
+  const { name, brewery } = beer; 
+  return (
+    <div className="beer-panel">
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+        <div style={{display: 'flex', flexDirection: 'column'}}>
+          <div className="beer-panel-label-container">
+            <span>Beer Name: {name}</span> 
+          </div>
+          <div className="beer-panel-label-container">
+            <span>Brewery: {brewery}</span>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+    </div>
+  );
+};
+
+function App() {
+  const [beerList, setBeerList] = useState([]);
+  const [selectedFilter, setSelectedFilter] = useState('name');
+
+  const byFilterSortFn = FILTER_COMPARE_MAP[selectedFilter];
+
+  useEffect(() => {
+    if (!beerList.length) {
+      const initializedBeerList = beerJSONData?.beers;
+      setBeerList(initializedBeerList);
+    }
+  }, [beerList]);
+
+  const sortedBeers = beerList.sort(byFilterSortFn);
+
+  console.log('LEL sortedBeers:', sortedBeers);
+  return (
+    <div className="app">
+      <div className="title-header-container">
+        <div className="title-header-label">
+          <span>Beer Taster</span>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="filter-outer-container">
+        <div className="filter-container">
+          <div className="filter-title-container">
+            <span>
+              Filter Options
+            </span>
+          </div>
+          <div className="filter-button-container">
+            <FilterButton 
+              label="Sort by Brewery" 
+              id="brewery" 
+              selectedFilter={selectedFilter} 
+              onClick={setSelectedFilter} 
+            />
+            <FilterButton 
+              label="Sort by Name" 
+              id="name" 
+              selectedFilter={selectedFilter} 
+              onClick={setSelectedFilter} 
+            />
+            <FilterButton 
+              label="Sort by style" 
+              id="style" 
+              selectedFilter={selectedFilter} 
+              onClick={setSelectedFilter} 
+            />
+            <FilterButton 
+              label="Sort by Alcohol %" 
+              id="alcohol" 
+              selectedFilter={selectedFilter} 
+              onClick={setSelectedFilter} 
+            />
+          </div>
+        </div>
+      </div>
+      <div className="beer-panel-outer-container">
+        <div className="beer-panel-list-container">
+        {
+          sortedBeers.map((beer) => {
+            return (
+              <BeerPanel key={beer?.id} beer={beer} />
+            );
+          })
+        }
+        </div>
+      </div>
     </div>
   )
 }
