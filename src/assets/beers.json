@@ -4,242 +4,270 @@
             "id": "Off Color Beer For Burgers",
             "name": "Beer For Burgers",
             "brewery": "Off Color Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
+            "alcohol": 7,
+            "style": "Bock",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w",
+            "description": "Helles Bock styled beer with bourbon barrel aged lager"
         },
         {
             "id": "Off Color Beer For Dealing With Your Family",
             "name": "Beer For Dealing With Your Family",
             "brewery": "Off Color Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
-
+            "alcohol": 12,
+            "style": "Malt Liquor",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w",
+            "description": "It's literally malt liquor. It'll get you drunk!"
         },
         {
             "id": "Off Color Waddle",
             "name": "Waddle",
             "brewery": "Off Color Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
+            "alcohol": 6.5,
+            "style": "Oktoberfest Lager",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w",
+            "description": "biscuity malts from dark Munich malt reminiscent of freshly baked bread. Subtle and spicy hop finish add enough character to prevent the final beer from being overly sweet"
         },
         {
             "id": "Off Color Well Fed Sheep",
             "name": "Well Fed Sheep",
             "brewery": "Off Color Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
+            "alcohol": 9.5,
+            "style": "Scotch Style Ale",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w",
+            "description": "A rich malt, light caramel, and biscuit profile (from as much malt as our brewhouse could hold) is accentuated by a slight alcoholic presence, while distinct honey notes compliment the dry finish. Pale copper on color with only enough hops to balance the huge malt profile."
         },
         {
             "id": "Marz Tropical Freak",
             "name": "Tropical Freak",
             "brewery": "Marz Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://marz.beer/wp-content/uploads/2019/05/download.png"
+            "alcohol": 6,
+            "style": "Sour Ale",
+            "breweryLogoURL": "https://marz.beer/wp-content/uploads/2019/05/download.png",
+            "description": "loads of mango and strawberry alongside our house lacto culture to set you up for some nice cabana time"
         },
         {
             "id": "Saugatuck Brewing Company Pumpkin Chai",
             "name": "Pumpkin Chai",
             "brewery": "Saugatuck Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://images.getbento.com/accounts/34290715f5f307dbcf732116ed8bbcd5/media/images/77358logow2.png"
+            "alcohol": 6,
+            "style": "Pumpkin / Yam Beer",
+            "breweryLogoURL": "https://images.getbento.com/accounts/34290715f5f307dbcf732116ed8bbcd5/media/images/77358logow2.png",
+            "description": "An ale brewed with herbal chai tea and pumpkin. Aromas of chai tea and subtle pumpkin notes on the nose; Flavors of chai and pumpkin make this fall seasonal stand out from typical fall beers. Perfect for a brisk autumn day."
         },
         {
             "id": "Around The Bend Oktoberfiesta",
             "name": "Oktoberfiesta",
             "brewery": "Around The Bend Beer Co.",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://www.porchdrinking.com/wp-content/uploads/2016/08/ATB.png"
+            "alcohol": 6,
+            "style": "Marzen",
+            "breweryLogoURL": "https://www.porchdrinking.com/wp-content/uploads/2016/08/ATB.png",
+            "description": "Pairing a traditional Märzen lager, redolent with sweet caramel and light-toast notes, with the fruity nature of the chili pepper and herbaceous quality of the epazote creates a global mash-up you’re sure to enjoy"
         },
         {
             "id": "Pipeworks Your Brain On Brunch",
             "name": "You Brain On Brunch",
             "brewery": "Pipeworks Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "http://static1.squarespace.com/static/523d035de4b0f99c83ed886d/t/584873c229687f3cd85e0d40/1481143241768/WhiteTextLogo.png?format=1500w"
+            "alcohol": 10.5,
+            "style": "Imperial / Double Milk Stout",
+            "breweryLogoURL": "http://static1.squarespace.com/static/523d035de4b0f99c83ed886d/t/584873c229687f3cd85e0d40/1481143241768/WhiteTextLogo.png?format=1500w",
+            "description": "rich maple aroma and flavor thanks to the gallons of maple syrup added during fermentation, and a bit of fenugreek (a spice that also has a maple flavor) and smoothed out with the combo of milk sugar and vanilla"
         },
         {
             "id": "Allagash North Sky",
             "name": "North Sky",
             "brewery": "Alagash Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://www.allagash.com/wp-content/uploads/allagash-brewing-company.jpg"
+            "alcohol": 7.5,
+            "style": "Stout",
+            "breweryLogoURL": "https://www.allagash.com/wp-content/uploads/allagash-brewing-company.jpg",
+            "description": "Like a clear night lit by stars, this silky Belgian-inspired stout balances light notes of fruit and sweetness with roasty malt. Inspired by late evenings spent around a crackling campfire, North Sky is brewed to merge lightness and darkness into a super-sippable stout."
         },
         {
             "id": "Azardi Kadak",
             "name": "Kadak",
             "brewery": "Azardi Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://assets.untappd.com/site/brewery_logos/brewery-480259_eaba4.jpeg"
+            "alcohol": 8,
+            "style": "Imperial/Double-Milk Stout",
+            "breweryLogoURL": "https://assets.untappd.com/site/brewery_logos/brewery-480259_eaba4.jpeg",
+            "description": "Pronounced “Kuh-duk”, this beer is a Mumbai Cutting Chai Stout. Featuring a bold blend of chai spices in a warm & inviting winter brew."
         },
         {
             "id": "Begyle Brewing Coffee Tough Guy",
             "name": "Coffee Tough Guy",
             "brewery": "Begyle Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://lh6.ggpht.com/2gX3dS56JJ57eObAzS7o3ZVwvCCOSANpXkwIxcSrVesZ_s3O9mdfBn3Bp7CWp5V5UWmeIGyo6PCfRFiWoJ6wRlWzNCrTiw=s750"
+            "alcohol": 5.6,
+            "style": "Brown Ale",
+            "breweryLogoURL": "https://lh6.ggpht.com/2gX3dS56JJ57eObAzS7o3ZVwvCCOSANpXkwIxcSrVesZ_s3O9mdfBn3Bp7CWp5V5UWmeIGyo6PCfRFiWoJ6wRlWzNCrTiw=s750",
+            "description": "Tough Guy With Ipsento Wildfire Espresso"
         },
         {
             "id": "Maplewood Barrel Aged Barley Butcher",
             "name": "Barrel Aged Barley Bucher",
             "brewery": "Maplewood Brewery & Distillery",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://pbs.twimg.com/profile_images/1489399104853708803/fFka-I4v_400x400.jpg"
+            "alcohol": 12.5,
+            "style": "Barleywine-style Ale",
+            "breweryLogoURL": "https://pbs.twimg.com/profile_images/1489399104853708803/fFka-I4v_400x400.jpg",
+            "description": "A blended barleywine having a depth of complexity with rich notes of caramel, toffee, leather, and chocolate covered dark fruits. All of the beer blended to create this BA Barley Butcher was aged from 12 to 24 months."
         },
         {
             "id": "Revolution Caramel Crisp",
             "name": "Caramel Crisp",
             "brewery": "Revolution Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
+            "alcohol": 7,
+            "style": "Caramel Popcorn Ale",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750",
+            "description": "The ultimate Chicago pairing, made with more than 450 pounds of Garrett Popcorn. Brown sugar, rye malt, lactose, and kosher salt contribute crème brûlée sweetness and a lightly salted finish."
         },
         {
             "id": "Revolution PB Eugene",
             "name": "PB Eugene", 
             "brewery": "Revolution Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
+            "alcohol": 6.8,
+            "style": "Porter with Peanut Butter",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750",
+            "description": "Sweet, creamy peanut butter enlivens the dark, roasty flavor profile of our Eugene Robust Porter."
         },
         {
             "id": "Revolution Fistmas",
             "name": "Fistmas",
             "brewery": "Revolution Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
+            "alcohol": 6.5,
+            "style": "Holiday Ale",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750",
+            "description": "Our Holiday Red Ale is steeped with ginger and orange peel. It features notes of fresh-baked bread, caramel, and stone fruit along with holiday cheer."
         },
         {
             "id": "Revolution Maple Jacket",
             "name": "Maple Jacket",
             "brewery": "Revolution Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
+            "alcohol": 14.4,
+            "style": "Barleywine Ale",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750",
+            "description": "This dry English Barleywine, created with our friends at Chicago Maple, rested for one year in freshly emptied maple syrup bourbon barrels before being sweetened with that same syrup just prior to packaging. Subtle maple aromatics and flavor complement the classic vanilla and toffee notes we’ve come to expect without detriment to balance. Enjoy now or store cold."
         },
         {
             "id": "Southern Tier Pumpking",
             "name": "Pumpking",
             "brewery": "Southern Tier Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://stbcbeer.com/wp-content/uploads/2019/10/logo.png"
+            "alcohol": 8.6,
+            "style": "Imperial Ale",
+            "breweryLogoURL": "https://stbcbeer.com/wp-content/uploads/2019/10/logo.png",
+            "description": "It is thought that we harness this magic to brew our powerful pumpkin ale. Not so, but it is with great respect to the magic of their trade that our brewers produce this fine beer. Take a whiff of this complex ale and your journey has just begun. At first sip, a magical spell will bewitch your taste buds, yet another victim enraptured by the Pumking."
         },
         {
             "id": "Breckenridge Christmas Ale",
             "name": "Christmas Ale",
             "brewery": "Breckenridge Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://upload.wikimedia.org/wikipedia/en/6/6c/Breckenridge_Brewery_logo.png"
+            "alcohol": 7.1,
+            "style": "Christmas Ale",
+            "breweryLogoURL": "https://upload.wikimedia.org/wikipedia/en/6/6c/Breckenridge_Brewery_logo.png",
+            "description": "The chill of winter calls for a beer with extra flavor and strength! An abundance of carefully roasted malts create notes of caramel and chocolate, while Chinook and Mt. Hood hops contribute a spicy quality for balance and a clean finish."
         },
         {
             "id": "Two Brothers North Wind",
             "name": "North Wind",
             "brewery": "Two Brothers Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2016/04/28161438/Two-Brothers-Artisan-Brewing-logo.jpg"
+            "alcohol": 9.1,
+            "style": "Russian Imperial Stout",
+            "breweryLogoURL": "https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2016/04/28161438/Two-Brothers-Artisan-Brewing-logo.jpg",
+            "description": "Dark delights like this were once shipped to the imperial court of Russia. With a firm, roasty maltiness balanced against a generous helping of hops, Northwind can stand up to the worst its namesake can dish out! Enjoy it by a roaring fire. Inspired by the infamous imperial court of Russia, it features a firm, roasty maltiness and a generous helping of hops."
         },
         {
             "id": "Untitled Art Blackberry Cobbler A La Mode",
             "name": "Blackberry Cobbler A La Mode",
             "brewery": "Untitled Art",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://d2sochvv0rudri.cloudfront.net/brewery_logos/16429/untitled-art-e88d9be2.png"
+            "alcohol": 6.5,
+            "style": "Fruited Berliner Weisse",
+            "breweryLogoURL": "https://d2sochvv0rudri.cloudfront.net/brewery_logos/16429/untitled-art-e88d9be2.png",
+            "description": "Berliner Wiesse style ale brewed with blackberry purée, pie crust, and cinnamon."
         },
         {
-            "id": "Phase Three Affy Tapple",
+            "id": "Phase Three A Bushel of Apples",
             "name": "Affy Tapple",
             "brewery": "Phase Three Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://images.squarespace-cdn.com/content/v1/5c75696e93a63222986b378e/1574533567256-D4KH7LKDTEGDMNFG55JC/PhaseThree_HummingbirdLogo-01.png?format=1500w"
+            "alcohol": 6,
+            "style": "Ale?",
+            "breweryLogoURL": "https://images.squarespace-cdn.com/content/v1/5c75696e93a63222986b378e/1574533567256-D4KH7LKDTEGDMNFG55JC/PhaseThree_HummingbirdLogo-01.png?format=1500w",
+            "description": "An ale with apple juice, caramel, & peanuts."
         },
         {
             "id": "Half Acre Spring Bock",
             "name": "Spring Bock",
             "brewery": "Half Acre Brewery",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://upload.wikimedia.org/wikipedia/en/9/95/Half_Acre_Beer_Company_logo.gif"
+            "alcohol": "Bock",
+            "style": "6.8",
+            "breweryLogoURL": "https://upload.wikimedia.org/wikipedia/en/9/95/Half_Acre_Beer_Company_logo.gif",
+            "description": "A real pleasure as the sun shines warmer & stays up later. A true classic in style. Brilliant ruby with toasty biscuit & rich English toffee aromas. Malty with the biscuit & toffee on the palate balanced by a bit of bitterness."
         },
         {
             "id": "Goldfinger Vienna",
             "name": "Vienne",
             "brewery": "Goldfinger Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://goldfinger-brewing-company.square.site/uploads/b/1085d86b0bec1cb18dcf6c47b01687c4b642d5c724750fca8149bd5d8050077d/Goldfinger_logotype-gradient_1599149307.png"
+            "alcohol": 5.5,
+            "style": "Vienna Lager",
+            "breweryLogoURL": "https://goldfinger-brewing-company.square.site/uploads/b/1085d86b0bec1cb18dcf6c47b01687c4b642d5c724750fca8149bd5d8050077d/Goldfinger_logotype-gradient_1599149307.png",
+            "description": "Due to the double decoction method of brewing, we achieved a unique depth of malt flavor that is balanced by Czech Saaz hops. This beer is copper in color with a medium body for a slightly more robust drinking experience."
         },
         {
             "id": "Bell's Expedition Stout",
             "name": "Expedition Stout",
             "brewery": "Bell's Brewery",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://bellsbeer.com/wp-content/uploads/2022/01/new.png"
+            "alcohol": 10.5,
+            "style": "Russian Imperial Stout",
+            "breweryLogoURL": "https://bellsbeer.com/wp-content/uploads/2022/01/new.png",
+            "description": "One of the earliest examples of Russian Imperial Stouts in the United States, this beer offers immensely complex flavors crafted specifically with aging in mind."
         },
         {
             "id": "3 Floyds Behemoth",
             "name": "Behemoth",
             "brewery": "3 Floyds Brewing",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://lh5.ggpht.com/WqYORORgpo-eUVjCnVCGOPDEJuyBiFWMm7FbuWkjyepE_2GBcPPr2QvPL3pIY5WsIasKFtUbCR_Ta8OMikxeNl5_CHQG-Yc=s750"
+            "alcohol": 10.5,
+            "style": "Barleywine",
+            "breweryLogoURL": "https://lh5.ggpht.com/WqYORORgpo-eUVjCnVCGOPDEJuyBiFWMm7FbuWkjyepE_2GBcPPr2QvPL3pIY5WsIasKFtUbCR_Ta8OMikxeNl5_CHQG-Yc=s750",
+            "description": "A huge, sweet Barley Wine with complex caramel malt notes, balanced by generous hopping and a high alcohol content. This fruity and malty beer is best enjoyed while keeping warm in the brutal winter months"
         },
         {
             "id": "Goose Island Bourbon Barrel Aged Stout 2021",
             "name": "Bourbon Barrel Aged Stout",
             "brewery": "Goose Island Brewery",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://assets.untappd.com/site/beer_logos_hd/beer-4858378_f8c30_hd.jpeg"
+            "alcohol": 14.5,
+            "style": "Barrel Aged Stout",
+            "breweryLogoURL": "https://assets.untappd.com/site/beer_logos_hd/beer-4858378_f8c30_hd.jpeg",
+            "description": "Our rich Imperial Stout is blended from a mix of bourbon barrels from distilleries such as Heaven Hill, Wild Turkey, and Buffalo Trace, each aged in freshly emptied bourbon barrels for 8-14 months. Expect flavors of chocolate and vanilla, oak, whiskey, and molasses, followed by caramel, berry fruit, and almond."
         },
         {
             "id": "Short Fuse Bourbon Barrel Aged Barleywine No.1",
             "name": "Bourbon Barrel Aged Barleywine No.1",
             "brewery": "Short Fuse Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://assets.untappd.com/site/beer_logos_hd/beer-3047793_6429f_hd.jpeg"
+            "alcohol": 12.5,
+            "style": "Barrel Aged Barleywine",
+            "breweryLogoURL": "https://assets.untappd.com/site/beer_logos_hd/beer-3047793_6429f_hd.jpeg",
+            "description": "This barleywine ale rested for 18 months in Baker's Bourbon Barrels to help smooth out the flavors. Big notes of caramel, toffee, and bread with flavors of the bourbon barrel on he finish"
         },
         {
             "id": "Goldfinger Chela Chido Negra",
             "name": "Chela Chido Negra",
             "brewery": "Goldfinger Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://goldfinger-brewing-company.square.site/uploads/b/1085d86b0bec1cb18dcf6c47b01687c4b642d5c724750fca8149bd5d8050077d/Goldfinger_logotype-gradient_1599149307.png"
+            "alcohol": 4.6,
+            "style": "Amber Lager",
+            "breweryLogoURL": "https://goldfinger-brewing-company.square.site/uploads/b/1085d86b0bec1cb18dcf6c47b01687c4b642d5c724750fca8149bd5d8050077d/Goldfinger_logotype-gradient_1599149307.png",
+            "description": "A darker version of our Chela Chido Mexican lager that presents flavors of toast, slight caramel, and a corn tortilla finish."
         },
         {
             "id": "Pollyanna Dreamsicle Flurries",
             "name": "Dreamsicle Flurries",
             "brewery": "Pollyanna Brewing Company",
-            "alcohol": "",
-            "style": "",
+            "alcohol": 5.2,
+            "style": "Fruit Beer",
             "breweryLogoURL": "https://lh3.ggpht.com/c6ypojtB9JVxKTeGL16t-hd8WSxL2_eWF3LvRX9_slaIBwbvkz6WPMxACfGoDvNVpEVg1MDytWRxKH4enhR06BN8gGQu_1w=s750"
         },
         {
             "id": "Southern Tier Frosted Sugar Cookie",
             "name": "Frosted Sugar Cookie",
             "brewery": "Southern Tier Brewing Company",
-            "alcohol": "",
-            "style": "",
-            "breweryLogoURL": "https://stbcbeer.com/wp-content/uploads/2019/10/logo.png"
+            "alcohol": 8.6,
+            "style": "Imperial Ale",
+            "breweryLogoURL": "https://stbcbeer.com/wp-content/uploads/2019/10/logo.png",
+            "description": "Gather ‘round the fire with all of your closest friends and cozy up to this delicious spectacle of pure sweetness that is sure to sprinkle your wintry days with joy. You won’t believe it’s beer and not a tin full of iced confections. Our Frosted Sugar Cookie Ale is full of soft and airy vanilla and cake notes, iced to perfection. Happy Holidays from ours to yours."
         }
    ]
 }
