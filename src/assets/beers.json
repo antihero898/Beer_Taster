@@ -193,8 +193,8 @@
             "id": "Half Acre Spring Bock",
             "name": "Spring Bock",
             "brewery": "Half Acre Brewery",
-            "alcohol": "Bock",
-            "style": "6.8",
+            "alcohol": 6.8,
+            "style": "Bock",
             "breweryLogoURL": "https://upload.wikimedia.org/wikipedia/en/9/95/Half_Acre_Beer_Company_logo.gif",
             "description": "A real pleasure as the sun shines warmer & stays up later. A true classic in style. Brilliant ruby with toasty biscuit & rich English toffee aromas. Malty with the biscuit & toffee on the palate balanced by a bit of bitterness."
         },
@@ -258,7 +258,8 @@
             "brewery": "Pollyanna Brewing Company",
             "alcohol": 5.2,
             "style": "Fruit Beer",
-            "breweryLogoURL": "https://lh3.ggpht.com/c6ypojtB9JVxKTeGL16t-hd8WSxL2_eWF3LvRX9_slaIBwbvkz6WPMxACfGoDvNVpEVg1MDytWRxKH4enhR06BN8gGQu_1w=s750"
+            "breweryLogoURL": "https://lh3.ggpht.com/c6ypojtB9JVxKTeGL16t-hd8WSxL2_eWF3LvRX9_slaIBwbvkz6WPMxACfGoDvNVpEVg1MDytWRxKH4enhR06BN8gGQu_1w=s750",
+            "description": "We miss our favorite pink beer, 'Summerly,' in the Winter so we decided to brew a winterized wheat beer to take its place. Dreamsicle Flurries is a wheat beer with loads of orange juice and vanilla bean added. It tastes so good we forgot how much Winter sucks for a few minutes!"
         },
         {
             "id": "Southern Tier Frosted Sugar Cookie",

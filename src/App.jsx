@@ -3,23 +3,23 @@ import beerJSONData from './assets/beers.json';
 
 import './styles.css';
 
-const toBeerStringCompartorFn = (propKey) => (beerA, beerB) => {
-  const stringA = beerA[propKey];
-  const stringB = beerB[propKey];
-  if (stringA < stringB) {
+const toBeerComparatorFn = (propKey) => (beerA, beerB) => {
+  const valueA = beerA[propKey];
+  const valueB = beerB[propKey];
+  if (valueA < valueB) {
     return -1;
   }
-  if (stringA > stringB) {
+  if (valueA > valueB) {
       return 1;
   }
   return 0;
 };
 
 const FILTER_COMPARE_MAP = {
-  brewery: toBeerStringCompartorFn('brewery'),
-  name: toBeerStringCompartorFn('name'),
-  alcohol: (beerA, beerB) => {},
-  style: (beerA, beerB) => {}
+  brewery: toBeerComparatorFn('brewery'),
+  name: toBeerComparatorFn('name'),
+  alcohol: toBeerComparatorFn('alcohol'),
+  style: toBeerComparatorFn('style')
 }
 
 const FilterButton = (props) => {
@@ -49,10 +49,21 @@ const BeerPanelLabel = (props) => {
   );
 };
 
+const BeerPanelDescription = (props) => {
+  const { value } = props;
+  return (
+    <div style={{justifySelf: 'flex-start', padding: '5px', display: 'flex', justifyContent: 'center'}}>
+      <div>
+        <span className="beer-panel-description">{value}</span>
+      </div>
+    </div>
+  );
+};
+
 
 const BeerPanel = (props) => {
   const { beer } = props;
-  const { name, brewery, breweryLogoURL } = beer; 
+  const { name, brewery, breweryLogoURL, alcohol, style, description } = beer; 
   return (
     <div className="beer-panel">
       <div style={{display: 'flex', justifyContent: 'center'}}>
@@ -70,6 +81,17 @@ const BeerPanel = (props) => {
               <img className="brewery-logo-image" src={breweryLogoURL}/>
             </div>
           </div>
+          <BeerPanelLabel
+            descriptor="Alcohol Content"
+            value={`${alcohol}%`}
+          />
+          <BeerPanelLabel
+            descriptor="Style"
+            value={style}
+          />
+          <BeerPanelDescription
+            value={description}
+          />
         </div>
       </div>
     </div>
