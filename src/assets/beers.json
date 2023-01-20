@@ -4,182 +4,242 @@
             "id": "Off Color Beer For Burgers",
             "name": "Beer For Burgers",
             "brewery": "Off Color Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
         },
         {
             "id": "Off Color Beer For Dealing With Your Family",
             "name": "Beer For Dealing With Your Family",
             "brewery": "Off Color Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
 
         },
         {
             "id": "Off Color Waddle",
             "name": "Waddle",
             "brewery": "Off Color Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
         },
         {
             "id": "Off Color Well Fed Sheep",
             "name": "Well Fed Sheep",
             "brewery": "Off Color Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "http://images.squarespace-cdn.com/content/v1/52f7da5be4b04c51e901a9b6/1596685731558-YM8AH72177XVZ6KBZKLX/OCB_Script_Logo.png?format=1000w"
         },
         {
             "id": "Marz Tropical Freak",
             "name": "Tropical Freak",
             "brewery": "Marz Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://marz.beer/wp-content/uploads/2019/05/download.png"
         },
         {
             "id": "Saugatuck Brewing Company Pumpkin Chai",
             "name": "Pumpkin Chai",
             "brewery": "Saugatuck Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://images.getbento.com/accounts/34290715f5f307dbcf732116ed8bbcd5/media/images/77358logow2.png"
         },
         {
             "id": "Around The Bend Oktoberfiesta",
             "name": "Oktoberfiesta",
             "brewery": "Around The Bend Beer Co.",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://www.porchdrinking.com/wp-content/uploads/2016/08/ATB.png"
         },
         {
             "id": "Pipeworks Your Brain On Brunch",
             "name": "You Brain On Brunch",
             "brewery": "Pipeworks Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "http://static1.squarespace.com/static/523d035de4b0f99c83ed886d/t/584873c229687f3cd85e0d40/1481143241768/WhiteTextLogo.png?format=1500w"
         },
         {
             "id": "Allagash North Sky",
             "name": "North Sky",
             "brewery": "Alagash Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://www.allagash.com/wp-content/uploads/allagash-brewing-company.jpg"
         },
         {
             "id": "Azardi Kadak",
             "name": "Kadak",
             "brewery": "Azardi Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://assets.untappd.com/site/brewery_logos/brewery-480259_eaba4.jpeg"
         },
         {
             "id": "Begyle Brewing Coffee Tough Guy",
             "name": "Coffee Tough Guy",
             "brewery": "Begyle Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://lh6.ggpht.com/2gX3dS56JJ57eObAzS7o3ZVwvCCOSANpXkwIxcSrVesZ_s3O9mdfBn3Bp7CWp5V5UWmeIGyo6PCfRFiWoJ6wRlWzNCrTiw=s750"
         },
         {
             "id": "Maplewood Barrel Aged Barley Butcher",
             "name": "Barrel Aged Barley Bucher",
             "brewery": "Maplewood Brewery & Distillery",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://pbs.twimg.com/profile_images/1489399104853708803/fFka-I4v_400x400.jpg"
         },
         {
             "id": "Revolution Caramel Crisp",
             "name": "Caramel Crisp",
             "brewery": "Revolution Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
         },
         {
             "id": "Revolution PB Eugene",
             "name": "PB Eugene", 
             "brewery": "Revolution Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
         },
         {
             "id": "Revolution Fistmas",
             "name": "Fistmas",
             "brewery": "Revolution Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
         },
         {
             "id": "Revolution Maple Jacket",
             "name": "Maple Jacket",
             "brewery": "Revolution Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://lh6.ggpht.com/osMEf4HGVre7BYm36UehoPakCUeo4AFlb8_bUcihJ9QXb_v0Rvr2FgkBZ9Hh7NUMoISq48V4TLVUnVtkuSZWxX16hA0_fg=s750"
         },
         {
             "id": "Southern Tier Pumpking",
             "name": "Pumpking",
             "brewery": "Southern Tier Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://stbcbeer.com/wp-content/uploads/2019/10/logo.png"
         },
         {
             "id": "Breckenridge Christmas Ale",
             "name": "Christmas Ale",
             "brewery": "Breckenridge Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://upload.wikimedia.org/wikipedia/en/6/6c/Breckenridge_Brewery_logo.png"
         },
         {
             "id": "Two Brothers North Wind",
             "name": "North Wind",
             "brewery": "Two Brothers Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2016/04/28161438/Two-Brothers-Artisan-Brewing-logo.jpg"
         },
         {
             "id": "Untitled Art Blackberry Cobbler A La Mode",
             "name": "Blackberry Cobbler A La Mode",
             "brewery": "Untitled Art",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://d2sochvv0rudri.cloudfront.net/brewery_logos/16429/untitled-art-e88d9be2.png"
         },
         {
             "id": "Phase Three Affy Tapple",
             "name": "Affy Tapple",
             "brewery": "Phase Three Brewing",
+            "alcohol": "",
+            "style": "",
             "breweryLogoURL": "https://images.squarespace-cdn.com/content/v1/5c75696e93a63222986b378e/1574533567256-D4KH7LKDTEGDMNFG55JC/PhaseThree_HummingbirdLogo-01.png?format=1500w"
         },
         {
             "id": "Half Acre Spring Bock",
             "name": "Spring Bock",
             "brewery": "Half Acre Brewery",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://upload.wikimedia.org/wikipedia/en/9/95/Half_Acre_Beer_Company_logo.gif"
         },
         {
             "id": "Goldfinger Vienna",
             "name": "Vienne",
             "brewery": "Goldfinger Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://goldfinger-brewing-company.square.site/uploads/b/1085d86b0bec1cb18dcf6c47b01687c4b642d5c724750fca8149bd5d8050077d/Goldfinger_logotype-gradient_1599149307.png"
         },
         {
             "id": "Bell's Expedition Stout",
             "name": "Expedition Stout",
             "brewery": "Bell's Brewery",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://bellsbeer.com/wp-content/uploads/2022/01/new.png"
         },
         {
             "id": "3 Floyds Behemoth",
             "name": "Behemoth",
             "brewery": "3 Floyds Brewing",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://lh5.ggpht.com/WqYORORgpo-eUVjCnVCGOPDEJuyBiFWMm7FbuWkjyepE_2GBcPPr2QvPL3pIY5WsIasKFtUbCR_Ta8OMikxeNl5_CHQG-Yc=s750"
         },
         {
             "id": "Goose Island Bourbon Barrel Aged Stout 2021",
             "name": "Bourbon Barrel Aged Stout",
             "brewery": "Goose Island Brewery",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://assets.untappd.com/site/beer_logos_hd/beer-4858378_f8c30_hd.jpeg"
         },
         {
             "id": "Short Fuse Bourbon Barrel Aged Barleywine No.1",
             "name": "Bourbon Barrel Aged Barleywine No.1",
             "brewery": "Short Fuse Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://assets.untappd.com/site/beer_logos_hd/beer-3047793_6429f_hd.jpeg"
         },
         {
             "id": "Goldfinger Chela Chido Negra",
             "name": "Chela Chido Negra",
             "brewery": "Goldfinger Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://goldfinger-brewing-company.square.site/uploads/b/1085d86b0bec1cb18dcf6c47b01687c4b642d5c724750fca8149bd5d8050077d/Goldfinger_logotype-gradient_1599149307.png"
         },
         {
             "id": "Pollyanna Dreamsicle Flurries",
             "name": "Dreamsicle Flurries",
             "brewery": "Pollyanna Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://lh3.ggpht.com/c6ypojtB9JVxKTeGL16t-hd8WSxL2_eWF3LvRX9_slaIBwbvkz6WPMxACfGoDvNVpEVg1MDytWRxKH4enhR06BN8gGQu_1w=s750"
         },
         {
             "id": "Southern Tier Frosted Sugar Cookie",
             "name": "Frosted Sugar Cookie",
             "brewery": "Southern Tier Brewing Company",
-            "breweryLogoURL": ""
+            "alcohol": "",
+            "style": "",
+            "breweryLogoURL": "https://stbcbeer.com/wp-content/uploads/2019/10/logo.png"
         }
    ]
 }
