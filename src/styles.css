@@ -99,8 +99,30 @@
     padding: 10px;
 }
 
+.beer-panel-label-descriptor {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
 .beer-panel-label-container {
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+
+.brewery-logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.brewery-logo {
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid white;
+}
+
+.brewery-logo-image {
+    height: 100%;
+    width: 100%;
+    background-color: white;
 }

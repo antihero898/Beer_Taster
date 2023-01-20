@@ -39,18 +39,36 @@ const FilterButton = (props) => {
 
 const isEmptyObject = (obj) => !Object.keys(obj).length
 
+const BeerPanelLabel = (props) => {
+  const { descriptor, value } = props;
+  return (
+    <div className="beer-panel-label-container">
+      <span className="beer-panel-label-descriptor">{descriptor}:</span>
+      <span>{value}</span>
+    </div>
+  );
+};
+
+
 const BeerPanel = (props) => {
   const { beer } = props;
-  const { name, brewery } = beer; 
+  const { name, brewery, breweryLogoURL } = beer; 
   return (
     <div className="beer-panel">
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <div style={{display: 'flex', flexDirection: 'column'}}>
-          <div className="beer-panel-label-container">
-            <span>Beer Name: {name}</span> 
-          </div>
-          <div className="beer-panel-label-container">
-            <span>Brewery: {brewery}</span>
+          <BeerPanelLabel
+            descriptor="Beer Name"
+            value={name}
+          />
+          <BeerPanelLabel
+            descriptor="Brewery"
+            value={brewery}
+          />
+          <div className="brewery-logo-container">
+            <div className="brewery-logo">
+              <img className="brewery-logo-image" src={breweryLogoURL}/>
+            </div>
           </div>
         </div>
       </div>
