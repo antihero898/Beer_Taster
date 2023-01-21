@@ -101,6 +101,7 @@ const BeerPanel = (props) => {
 function App() {
   const [beerList, setBeerList] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState('name');
+  const [textFilter, setTextFilter] = useState('');
 
   const byFilterSortFn = FILTER_COMPARE_MAP[selectedFilter];
 
@@ -111,7 +112,17 @@ function App() {
     }
   }, [beerList]);
 
-  const sortedBeers = beerList.sort(byFilterSortFn);
+  const sortedBeers = beerList.sort(byFilterSortFn).filter((beerItem) => {
+    const valueToCompare = beerItem[selectedFilter];
+
+    console.log('LEL textFilter:', textFilter);
+    if (typeof valueToCompare === 'string' && !!textFilter.length) {
+      return valueToCompare.toLowerCase().indexOf(textFilter.toLowerCase()) > -1;
+    }
+
+    // TODO: filter by integer for alcohol %
+    return true;
+  });
 
   console.log('LEL sortedBeers:', sortedBeers);
   return (
@@ -127,6 +138,12 @@ function App() {
             <span>
               Filter Options
             </span>
+          </div>
+          <div style={{margin: '25px'}}>
+            <div>
+              <span>Filter By Text (given selected filter):</span>
+              <input onChange={({ target: { value } = {}} = {}) => setTextFilter(value)}></input>
+            </div>
           </div>
           <div className="filter-button-container">
             <FilterButton 
@@ -156,17 +173,23 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="beer-panel-outer-container">
-        <div className="beer-panel-list-container">
-        {
-          sortedBeers.map((beer) => {
-            return (
-              <BeerPanel key={beer?.id} beer={beer} />
-            );
-          })
-        }
-        </div>
-      </div>
+      {
+        sortedBeers.length 
+          ? (
+            <div className="beer-panel-outer-container">
+              <div className="beer-panel-list-container">
+              {
+                sortedBeers.map((beer) => {
+                  return (
+                    <BeerPanel key={beer?.id} beer={beer} />
+                  );
+                })
+              }
+              </div>
+            </div>
+          )
+          : null
+      }
     </div>
   )
 }
