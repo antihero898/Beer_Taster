@@ -22,6 +22,8 @@ const FILTER_COMPARE_MAP = {
   style: toBeerComparatorFn('style')
 }
 
+const isEmptyObject = (obj) => !Object.keys(obj).length
+
 const FilterButton = (props) => {
   const {label, id, selectedFilter, onClick} = props;
 
@@ -36,8 +38,6 @@ const FilterButton = (props) => {
     </button>
   );
 };
-
-const isEmptyObject = (obj) => !Object.keys(obj).length
 
 const BeerPanelLabel = (props) => {
   const { descriptor, value } = props;
@@ -98,7 +98,7 @@ const BeerPanel = (props) => {
   );
 };
 
-function App() {
+const App = () => {
   const [beerList, setBeerList] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState('name');
   const [textFilter, setTextFilter] = useState('');
@@ -115,12 +115,10 @@ function App() {
   const sortedBeers = beerList.sort(byFilterSortFn).filter((beerItem) => {
     const valueToCompare = beerItem[selectedFilter];
 
-    console.log('LEL textFilter:', textFilter);
     if (typeof valueToCompare === 'string' && !!textFilter.length) {
       return valueToCompare.toLowerCase().indexOf(textFilter.toLowerCase()) > -1;
     }
 
-    // TODO: filter by integer for alcohol %
     return true;
   });
 
@@ -192,6 +190,6 @@ function App() {
       }
     </div>
   )
-}
+};
 
-export default App
+export default App;
