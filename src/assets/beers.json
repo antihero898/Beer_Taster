@@ -1,7 +1,7 @@
 {
    "beers": [
         {
-            "id": "Off Color Beer For Burgers",
+            "id": 1,
             "name": "Beer For Burgers",
             "brewery": "Off Color Brewing",
             "alcohol": 7,
@@ -10,7 +10,7 @@
             "description": "Helles Bock styled beer with bourbon barrel aged lager"
         },
         {
-            "id": "Off Color Beer For Dealing With Your Family",
+            "id": 2,
             "name": "Beer For Dealing With Your Family",
             "brewery": "Off Color Brewing",
             "alcohol": 12,
@@ -19,7 +19,7 @@
             "description": "It's literally malt liquor. It'll get you drunk!"
         },
         {
-            "id": "Off Color Waddle",
+            "id": 3,
             "name": "Waddle",
             "brewery": "Off Color Brewing",
             "alcohol": 6.5,
@@ -28,7 +28,7 @@
             "description": "biscuity malts from dark Munich malt reminiscent of freshly baked bread. Subtle and spicy hop finish add enough character to prevent the final beer from being overly sweet"
         },
         {
-            "id": "Off Color Well Fed Sheep",
+            "id": 4,
             "name": "Well Fed Sheep",
             "brewery": "Off Color Brewing",
             "alcohol": 9.5,
@@ -37,7 +37,7 @@
             "description": "A rich malt, light caramel, and biscuit profile (from as much malt as our brewhouse could hold) is accentuated by a slight alcoholic presence, while distinct honey notes compliment the dry finish. Pale copper on color with only enough hops to balance the huge malt profile."
         },
         {
-            "id": "Marz Tropical Freak",
+            "id": 5,
             "name": "Tropical Freak",
             "brewery": "Marz Brewing",
             "alcohol": 6,
@@ -46,7 +46,7 @@
             "description": "loads of mango and strawberry alongside our house lacto culture to set you up for some nice cabana time"
         },
         {
-            "id": "Saugatuck Brewing Company Pumpkin Chai",
+            "id": 6,
             "name": "Pumpkin Chai",
             "brewery": "Saugatuck Brewing Company",
             "alcohol": 6,
@@ -55,7 +55,7 @@
             "description": "An ale brewed with herbal chai tea and pumpkin. Aromas of chai tea and subtle pumpkin notes on the nose; Flavors of chai and pumpkin make this fall seasonal stand out from typical fall beers. Perfect for a brisk autumn day."
         },
         {
-            "id": "Around The Bend Oktoberfiesta",
+            "id": 7,
             "name": "Oktoberfiesta",
             "brewery": "Around The Bend Beer Co.",
             "alcohol": 6,
@@ -64,7 +64,7 @@
             "description": "Pairing a traditional Märzen lager, redolent with sweet caramel and light-toast notes, with the fruity nature of the chili pepper and herbaceous quality of the epazote creates a global mash-up you’re sure to enjoy"
         },
         {
-            "id": "Pipeworks Your Brain On Brunch",
+            "id": 8,
             "name": "You Brain On Brunch",
             "brewery": "Pipeworks Brewing Company",
             "alcohol": 10.5,
@@ -73,7 +73,7 @@
             "description": "rich maple aroma and flavor thanks to the gallons of maple syrup added during fermentation, and a bit of fenugreek (a spice that also has a maple flavor) and smoothed out with the combo of milk sugar and vanilla"
         },
         {
-            "id": "Allagash North Sky",
+            "id": 9,
             "name": "North Sky",
             "brewery": "Alagash Brewing Company",
             "alcohol": 7.5,
@@ -82,7 +82,7 @@
             "description": "Like a clear night lit by stars, this silky Belgian-inspired stout balances light notes of fruit and sweetness with roasty malt. Inspired by late evenings spent around a crackling campfire, North Sky is brewed to merge lightness and darkness into a super-sippable stout."
         },
         {
-            "id": "Azardi Kadak",
+            "id": 10,
             "name": "Kadak",
             "brewery": "Azardi Brewing Company",
             "alcohol": 8,
@@ -91,7 +91,7 @@
             "description": "Pronounced “Kuh-duk”, this beer is a Mumbai Cutting Chai Stout. Featuring a bold blend of chai spices in a warm & inviting winter brew."
         },
         {
-            "id": "Begyle Brewing Coffee Tough Guy",
+            "id": 11,
             "name": "Coffee Tough Guy",
             "brewery": "Begyle Brewing",
             "alcohol": 5.6,
@@ -100,7 +100,7 @@
             "description": "Tough Guy With Ipsento Wildfire Espresso"
         },
         {
-            "id": "Maplewood Barrel Aged Barley Butcher",
+            "id": 12,
             "name": "Barrel Aged Barley Bucher",
             "brewery": "Maplewood Brewery & Distillery",
             "alcohol": 12.5,
@@ -109,7 +109,7 @@
             "description": "A blended barleywine having a depth of complexity with rich notes of caramel, toffee, leather, and chocolate covered dark fruits. All of the beer blended to create this BA Barley Butcher was aged from 12 to 24 months."
         },
         {
-            "id": "Revolution Caramel Crisp",
+            "id": 13,
             "name": "Caramel Crisp",
             "brewery": "Revolution Brewing",
             "alcohol": 7,
@@ -118,7 +118,7 @@
             "description": "The ultimate Chicago pairing, made with more than 450 pounds of Garrett Popcorn. Brown sugar, rye malt, lactose, and kosher salt contribute crème brûlée sweetness and a lightly salted finish."
         },
         {
-            "id": "Revolution PB Eugene",
+            "id": 14,
             "name": "PB Eugene", 
             "brewery": "Revolution Brewing",
             "alcohol": 6.8,
@@ -127,7 +127,7 @@
             "description": "Sweet, creamy peanut butter enlivens the dark, roasty flavor profile of our Eugene Robust Porter."
         },
         {
-            "id": "Revolution Fistmas",
+            "id": 15,
             "name": "Fistmas",
             "brewery": "Revolution Brewing",
             "alcohol": 6.5,
@@ -136,7 +136,7 @@
             "description": "Our Holiday Red Ale is steeped with ginger and orange peel. It features notes of fresh-baked bread, caramel, and stone fruit along with holiday cheer."
         },
         {
-            "id": "Revolution Maple Jacket",
+            "id": 16,
             "name": "Maple Jacket",
             "brewery": "Revolution Brewing",
             "alcohol": 14.4,
@@ -145,7 +145,7 @@
             "description": "This dry English Barleywine, created with our friends at Chicago Maple, rested for one year in freshly emptied maple syrup bourbon barrels before being sweetened with that same syrup just prior to packaging. Subtle maple aromatics and flavor complement the classic vanilla and toffee notes we’ve come to expect without detriment to balance. Enjoy now or store cold."
         },
         {
-            "id": "Southern Tier Pumpking",
+            "id": 17,
             "name": "Pumpking",
             "brewery": "Southern Tier Brewing Company",
             "alcohol": 8.6,
@@ -154,7 +154,7 @@
             "description": "It is thought that we harness this magic to brew our powerful pumpkin ale. Not so, but it is with great respect to the magic of their trade that our brewers produce this fine beer. Take a whiff of this complex ale and your journey has just begun. At first sip, a magical spell will bewitch your taste buds, yet another victim enraptured by the Pumking."
         },
         {
-            "id": "Breckenridge Christmas Ale",
+            "id": 18,
             "name": "Christmas Ale",
             "brewery": "Breckenridge Brewing",
             "alcohol": 7.1,
@@ -163,7 +163,7 @@
             "description": "The chill of winter calls for a beer with extra flavor and strength! An abundance of carefully roasted malts create notes of caramel and chocolate, while Chinook and Mt. Hood hops contribute a spicy quality for balance and a clean finish."
         },
         {
-            "id": "Two Brothers North Wind",
+            "id": 19,
             "name": "North Wind",
             "brewery": "Two Brothers Brewing",
             "alcohol": 9.1,
@@ -172,7 +172,7 @@
             "description": "Dark delights like this were once shipped to the imperial court of Russia. With a firm, roasty maltiness balanced against a generous helping of hops, Northwind can stand up to the worst its namesake can dish out! Enjoy it by a roaring fire. Inspired by the infamous imperial court of Russia, it features a firm, roasty maltiness and a generous helping of hops."
         },
         {
-            "id": "Untitled Art Blackberry Cobbler A La Mode",
+            "id": 20,
             "name": "Blackberry Cobbler A La Mode",
             "brewery": "Untitled Art",
             "alcohol": 6.5,
@@ -181,7 +181,7 @@
             "description": "Berliner Wiesse style ale brewed with blackberry purée, pie crust, and cinnamon."
         },
         {
-            "id": "Phase Three A Bushel of Apples",
+            "id": 21,
             "name": "A Bushel of Apples",
             "brewery": "Phase Three Brewing",
             "alcohol": 6,
@@ -190,7 +190,7 @@
             "description": "An ale with apple juice, caramel, & peanuts."
         },
         {
-            "id": "Half Acre Spring Bock",
+            "id": 22,
             "name": "Spring Bock",
             "brewery": "Half Acre Brewery",
             "alcohol": 6.8,
@@ -199,7 +199,7 @@
             "description": "A real pleasure as the sun shines warmer & stays up later. A true classic in style. Brilliant ruby with toasty biscuit & rich English toffee aromas. Malty with the biscuit & toffee on the palate balanced by a bit of bitterness."
         },
         {
-            "id": "Goldfinger Vienna",
+            "id": 23,
             "name": "Vienne",
             "brewery": "Goldfinger Brewing Company",
             "alcohol": 5.5,
@@ -208,7 +208,7 @@
             "description": "Due to the double decoction method of brewing, we achieved a unique depth of malt flavor that is balanced by Czech Saaz hops. This beer is copper in color with a medium body for a slightly more robust drinking experience."
         },
         {
-            "id": "Bell's Expedition Stout",
+            "id": 24,
             "name": "Expedition Stout",
             "brewery": "Bell's Brewery",
             "alcohol": 10.5,
@@ -217,7 +217,7 @@
             "description": "One of the earliest examples of Russian Imperial Stouts in the United States, this beer offers immensely complex flavors crafted specifically with aging in mind."
         },
         {
-            "id": "3 Floyds Behemoth",
+            "id": 25,
             "name": "Behemoth",
             "brewery": "3 Floyds Brewing",
             "alcohol": 10.5,
@@ -226,7 +226,7 @@
             "description": "A huge, sweet Barley Wine with complex caramel malt notes, balanced by generous hopping and a high alcohol content. This fruity and malty beer is best enjoyed while keeping warm in the brutal winter months"
         },
         {
-            "id": "Goose Island Bourbon Barrel Aged Stout 2021",
+            "id": 26,
             "name": "Bourbon Barrel Aged Stout",
             "brewery": "Goose Island Brewery",
             "alcohol": 14.5,
@@ -235,7 +235,7 @@
             "description": "Our rich Imperial Stout is blended from a mix of bourbon barrels from distilleries such as Heaven Hill, Wild Turkey, and Buffalo Trace, each aged in freshly emptied bourbon barrels for 8-14 months. Expect flavors of chocolate and vanilla, oak, whiskey, and molasses, followed by caramel, berry fruit, and almond."
         },
         {
-            "id": "Short Fuse Bourbon Barrel Aged Barleywine No.1",
+            "id": 27,
             "name": "Bourbon Barrel Aged Barleywine No.1",
             "brewery": "Short Fuse Brewing Company",
             "alcohol": 12.5,
@@ -244,7 +244,7 @@
             "description": "This barleywine ale rested for 18 months in Baker's Bourbon Barrels to help smooth out the flavors. Big notes of caramel, toffee, and bread with flavors of the bourbon barrel on he finish"
         },
         {
-            "id": "Goldfinger Chela Chido Negra",
+            "id": 28,
             "name": "Chela Chido Negra",
             "brewery": "Goldfinger Brewing Company",
             "alcohol": 4.6,
@@ -253,7 +253,7 @@
             "description": "A darker version of our Chela Chido Mexican lager that presents flavors of toast, slight caramel, and a corn tortilla finish."
         },
         {
-            "id": "Pollyanna Dreamsicle Flurries",
+            "id": 29,
             "name": "Dreamsicle Flurries",
             "brewery": "Pollyanna Brewing Company",
             "alcohol": 5.2,
@@ -262,7 +262,7 @@
             "description": "We miss our favorite pink beer, 'Summerly,' in the Winter so we decided to brew a winterized wheat beer to take its place. Dreamsicle Flurries is a wheat beer with loads of orange juice and vanilla bean added. It tastes so good we forgot how much Winter sucks for a few minutes!"
         },
         {
-            "id": "Southern Tier Frosted Sugar Cookie",
+            "id": 30,
             "name": "Frosted Sugar Cookie",
             "brewery": "Southern Tier Brewing Company",
             "alcohol": 8.6,
