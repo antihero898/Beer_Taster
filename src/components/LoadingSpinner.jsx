@@ -4,8 +4,8 @@ import '../styles.css';
 
 export const LoadingSpinner = () => {
   return (
-    <div>
-      {LoadingSpinnerIcon}
+    <div className="loading-spinner-container">
+      <img className="loading-spinner" src={LoadingSpinnerIcon} />
     </div>
   )
 };

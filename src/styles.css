@@ -127,3 +127,17 @@
     width: 100%;
     background-color: white;
 }
+
+.loading-spinner-container {
+  position: absolute; 
+  height: 100%; 
+  width: 100%; 
+  background-color: rgba(0, 0, 0, 0.815); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner {
+  height: 200px;
+}

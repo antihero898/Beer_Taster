@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { useQuery } from 'react-query';
-import { GET_BEERS_URL } from '../../services/beers';
+import { useQuery, useMutation } from 'react-query';
+import { GET_BEERS_URL, REMOVE_BEER_URL } from '../../services/beers';
 import '../styles.css';
 import BeerPanel from './BeerPanel';
+import LoadingSpinner from './LoadingSpinner';
 
 const FilterButton = (props) => {
   const {label, id, selectedFilter, onClick} = props;
@@ -42,12 +43,29 @@ export const BeerTasterContainer = () => {
   const [selectedFilter, setSelectedFilter] = useState('name');
   const [textFilter, setTextFilter] = useState('');
 
-  const { isLoading, data = [] } = useQuery(
+  const { isLoading, data = [], refetch: refetchBeers } = useQuery(
     'beers', 
     () => fetch(
         GET_BEERS_URL
       ).then(res => res.json()),
   );
+
+  // const removeBeerMutation = useMutation(
+  //   'remove-beer', 
+  //   (beerId) => fetch(
+  //     [URL_HERE]
+  //     { 
+  //       method: 'PUT', 
+  //       body: JSON.stringify({_id: beerId }) 
+  //     }
+  //   ).then(res => res.json()),
+  //   {
+  //     onSuccess: ()=> {
+  //       refetchBeers();
+  //     }
+  //   }
+  // );
+
 
   const byFilterSortFn = FILTER_COMPARE_MAP[selectedFilter];
 
@@ -117,13 +135,24 @@ export const BeerTasterContainer = () => {
               {
                 sortedBeers.map((beer) => {
                   return (
-                    <BeerPanel key={beer?._id} beer={beer} />
+                    <BeerPanel 
+                      key={beer?._id} 
+                      beer={beer} 
+                      onRemove={() => {
+                        // removeBeerMutation.mutate(beer?._id);
+                      }}
+                    />
                   );
                 })
               }
               </div>
             </div>
           )
+          : null
+      }
+      {
+        isLoading || removeBeerMutation?.isLoading
+          ? <LoadingSpinner/>
           : null
       }
     </div>

@@ -1,3 +1,4 @@
+import Cancel from '../assets/cancel.svg';
 import '../styles.css';
 
 const BeerPanelLabel = (props) => {
@@ -23,10 +24,15 @@ const BeerPanelDescription = (props) => {
 
 
 export const BeerPanel = (props) => {
-  const { beer } = props;
+  const { beer, onRemove } = props;
   const { name, brewery, breweryLogoURL, alcohol, style, description } = beer; 
   return (
     <div className="beer-panel">
+      <div style={{ position: 'relative'}}>
+        <button style={{position: 'absolute', padding: '3px'}} onClick={onRemove}>
+          <img width={40} height={30} src={Cancel}/>
+        </button>
+      </div>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         <div style={{display: 'flex', flexDirection: 'column'}}>
           <BeerPanelLabel
