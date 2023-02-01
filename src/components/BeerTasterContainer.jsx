@@ -50,21 +50,21 @@ export const BeerTasterContainer = () => {
       ).then(res => res.json()),
   );
 
-  // const removeBeerMutation = useMutation(
-  //   'remove-beer', 
-  //   (beerId) => fetch(
-  //     /* enter url here */,
-  //     { 
-  //       method: 'PUT', 
-  //       body: JSON.stringify({_id: beerId }) 
-  //     }
-  //   ).then(res => res.json()),
-  //   {
-  //     onSuccess: ()=> {
-  //       refetchBeers();
-  //     }
-  //   }
-  // );
+  const removeBeerMutation = useMutation(
+    'remove-beer', 
+    (beerId) => fetch(
+      REMOVE_BEER_URL,
+      { 
+        method: 'PUT', 
+        body: JSON.stringify({_id: beerId }) 
+      }
+    ).then(res => res.json()),
+    {
+      onSuccess: ()=> {
+        refetchBeers();
+      }
+    }
+  );
 
 
   const byFilterSortFn = FILTER_COMPARE_MAP[selectedFilter];
@@ -139,7 +139,7 @@ export const BeerTasterContainer = () => {
                       key={beer?._id} 
                       beer={beer} 
                       onRemove={() => {
-                        // removeBeerMutation.mutate(beer?._id);
+                        removeBeerMutation.mutate(beer?._id);
                       }}
                     />
                   );
@@ -151,7 +151,7 @@ export const BeerTasterContainer = () => {
           : null
       }
       {
-        isLoading
+        isLoading || removeBeerMutation?.isLoading
           ? <LoadingSpinner/>
           : null
       }
