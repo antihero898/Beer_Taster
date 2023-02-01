@@ -53,7 +53,7 @@ export const BeerTasterContainer = () => {
   // const removeBeerMutation = useMutation(
   //   'remove-beer', 
   //   (beerId) => fetch(
-  //     [URL_HERE]
+  //     /* enter url here */,
   //     { 
   //       method: 'PUT', 
   //       body: JSON.stringify({_id: beerId }) 
@@ -151,7 +151,7 @@ export const BeerTasterContainer = () => {
           : null
       }
       {
-        isLoading || removeBeerMutation?.isLoading
+        isLoading
           ? <LoadingSpinner/>
           : null
       }
